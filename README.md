@@ -54,7 +54,7 @@ Avrà la possibilità di rilassarsi in un contesto pulito e tranquillo attravers
 
 **_Di seguito la Customer Journey Map:_**
 
-<img src="./assets/images/personas/CJM-2.png">
+<img src="./assets/images/personas/CJM-3.png">
 
 <hr>
 
