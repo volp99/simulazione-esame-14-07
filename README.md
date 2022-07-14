@@ -10,7 +10,9 @@
 
    B: i bisogni informativi e funzionali
 
-   C: Idee emerse
+   C: struttura dell'eventuale sito
+
+   D: Idee emerse
 
 2. Wireframe
 
@@ -29,6 +31,8 @@ L'utente target in questione sono potenzialmente persone comprese dai 17 ai 65 a
 Queste persone hanno in comune la passione per la montagna e tutti gli sport che ne derivano come ad esempio il trakking e le escursioni.
 Sono professionisti, imprenditori e studenti che nel loro tempo libero hanno il bisogno ed il piacere di immergersi nella natura staccandosi totalmente dalla vita lavorativa.
 Presentano diverse competenze in ambito informatico a seconda dell'età ma con una conoscenza di base in comune.
+
+[Per visualizzare su Figma](https://www.figma.com/file/5CPFk51ThRnYMjCwePYByA/Simulazione-Esane-14%2F06?node-id=46%3A9123)
 
 **_Di seguito le personas:_**
 
@@ -89,39 +93,50 @@ La pagina di dettaglio presenterà la medesima barra di navigazione e sotto di e
 
 <hr>
 
-First, run the development server:
+#### 1 - D
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Le idee che sono emerse riguardano la disposizione degli elementi nelle diverse pagine.
+A mio parere personale il design per questo sito deve essere per lo più funzionale in quanto l'utente....
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<hr/>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### 2 Wireframe
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed
-on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited
-in `pages/api/hello.js`.
+[Per visualizzare il wireframe su Figma](https://www.figma.com/file/5CPFk51ThRnYMjCwePYByA/Simulazione-Esane-14%2F06?node-id=3%3A123)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated
-as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+**_Di seguito la pagina Home:_**
 
-## Learn More
+<img src="./assets/images/wireframe/Home.png">
 
-To learn more about Next.js, take a look at the following resources:
+<br/>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**_Di seguito la pagina Dettaglio:_**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions
-are welcome!
+<img src="./assets/images/wireframe/Detail Page.png">
 
-## Deploy on Vercel
+<hr>
 
-The easiest way to deploy your Next.js app is to use
-the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme)
-from the creators of Next.js.
+### 3 Codice e tecnologie
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Ho utilizzato Next.js (un framework JavaScript basato su React) in quanto mi ha permesso di sviluppare il sito in maniera rapida e efficente.
+Ho utilizzato inoltre JSON-Server con il quale attraverso l'uso di API ho potuto servire il mio Front-End.
+
+#### Installazione Ambiente
+
+      yarn install
+
+#### Run
+
+      yarn dev
+
+### Per avvio del server:
+
+Clonare la seguente repo: [Server](https://www.figma.com/file/5CPFk51ThRnYMjCwePYByA/Simulazione-Esane-14%2F06?node-id=3%3A123)
+
+Successivamente:
+
+      yarn install
+
+E per avviare il server:
+
+      yarn server
