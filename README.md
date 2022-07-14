@@ -131,7 +131,7 @@ Ho utilizzato inoltre JSON-Server con il quale attraverso l'uso di API ho potuto
 
 ### Per avvio del server:
 
-Clonare la seguente repo: [Server](https://www.figma.com/file/5CPFk51ThRnYMjCwePYByA/Simulazione-Esane-14%2F06?node-id=3%3A123)
+Clonare la seguente repo: [Server](https://github.com/volp99/json-server)
 
 Successivamente:
 
