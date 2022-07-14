@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+	Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.success {
+	@apply bg-green-100 text-green-800
+}
+
+.danger {
+	@apply bg-red-100 text-red-800
+}
+
+.button {
+	@apply relative flex justify-center rounded-md border border-transparent py-2.5 px-5 text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2;
+}
+
+.button-primary {
+	@apply button bg-indigo-600 text-white hover:bg-indigo-700 focus:ring-indigo-500;
+}
+
+.button-secondary {
+	@apply py-2.5 px-5 rounded-lg border border-gray-200 bg-white text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-200;
+}
+
+.button--sm {
+	@apply px-3 py-2;
+}
+
+.button--md {
+	@apply px-5 py-2.5;
+}
+
+.button--lg {
+	@apply w-full;
+}
+
+.badge {
+	@apply rounded px-2.5 py-1 rounded-2xl text-xs font-semibold text-center;
+}
+
+.badge-danger {
+	@apply badge danger;
+}
+
+.badge-success {
+	@apply badge success;
+}
+
+.alert {
+	@apply p-4 mb-4 text-sm rounded-lg;
+}
+
+.alert-success {
+	@apply alert success
+}
+
+.alert-danger {
+	@apply alert danger
+}
