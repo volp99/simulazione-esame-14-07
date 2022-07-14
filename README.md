@@ -2,21 +2,21 @@
 
 ## Indice
 
-0. Introduzione
+[0. Introduzione](#0-introduzione)
 
 1. Approccio Progettuale
 
-   A: l'utente target
+   [A: l'utente target](#1---a)
 
-   B: i bisogni informativi e funzionali
+   [B: i bisogni informativi e funzionali](#1---b)
 
-   C: struttura dell'eventuale sito
+   [C: struttura dell'eventuale sito](#1---c)
 
-   D: Idee emerse
+   [D: Idee emerse](#1---d)
 
-2. Wireframe
+[2. Wireframe](#2-wireframe)
 
-3. Codice e tecnologie
+[3. Codice e tecnologie](#3-codice-e-tecnologie)
 
 ### 0 Introduzione
 
@@ -121,6 +121,8 @@ A mio parere personale il design per questo sito deve essere per lo più funzion
 Ho utilizzato Next.js (un framework JavaScript basato su React) in quanto mi ha permesso di sviluppare il sito in maniera rapida e efficente.
 Ho utilizzato inoltre JSON-Server con il quale attraverso l'uso di API ho potuto servire il mio Front-End.
 
+## Per avvio dell'applicazione:
+
 #### Installazione Ambiente
 
       yarn install
@@ -129,14 +131,14 @@ Ho utilizzato inoltre JSON-Server con il quale attraverso l'uso di API ho potuto
 
       yarn dev
 
-### Per avvio del server:
+## Per avvio del server:
 
 Clonare la seguente repo: [Server](https://github.com/volp99/json-server)
 
-Successivamente:
+#### Installazione Ambiente
 
       yarn install
 
-E per avviare il server:
+#### Run server
 
       yarn server
